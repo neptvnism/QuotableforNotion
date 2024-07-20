@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        #quote-box {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #quote {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        #author {
+            font-size: 1.2em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="quote-box">
+        <div id="quote">"The only limit to our realization of tomorrow is our doubts of today."</div>
+        <div id="author">- Franklin D. Roosevelt</div>
+    </div>
+
+    <script>
+        async function fetchQuote() {
+            // Code for fetching a quote from an API can be added here.
+        }
+
+        window.onload = fetchQuote;
+    </script>
+</body>
+</html>
